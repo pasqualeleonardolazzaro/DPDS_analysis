@@ -6,12 +6,6 @@ This repository contains all the necessary files for analyzing data provenance u
 
 - [Introduction](#introduction)
 - [Repository Structure](#repository-structure)
-- [Setup](#setup)
-- [Usage](#usage)
-  - [Running Cypher Queries](#running-cypher-queries)
-  - [Executing the Jupyter Notebook](#executing-the-jupyter-notebook)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -22,11 +16,10 @@ This project leverages the power of Neo4j and Cypher to analyze provenance graph
 
 ## Repository Structure
 
-```plaintext
-.
-├── cypher_queries/
-│   ├── queries.cypher
-├── notebooks/
-│   ├── text2cypher_approach.ipynb
-├── paper/
-│   ├── Report.pdf
+- [cypher_queries/](cypher_queries/)
+  - [community_detection.cypher](cypher_queries/community_detection.cypher)
+  - [path_algorithms_queries.cypher](cypher_queries/path_algorithms_queries.cypher)
+  - [simple_queries.cypher](cypher_queries/simple_queries.cypher)
+- [llm_approach.ipynb](text2cypher_approach.ipynb)
+- [paper/](Report.pdf)
+- [README.md](README.md)
